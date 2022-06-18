@@ -11,6 +11,7 @@ class Application {
 
 class LegacyService {
     public request(dataXML: string) {
+        console.log('Request from LegacyService');
         return '<xml>... response ...</xml>';
     }
 }
@@ -24,3 +25,7 @@ function run() {
 }
 
 run();
+
+// Output:
+// Request from LegacyService
+// Process XML <xml>... response ...</xml>

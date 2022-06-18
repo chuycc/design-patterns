@@ -17,6 +17,7 @@ class LegacyService {
 
 class NewService {
     public send(dataJSON: string) {
+        console.log('Request from NewService');
         return '{...response...}';
     }
 }
@@ -58,3 +59,7 @@ function run() {
 }
 
 run();
+
+// Output:
+// Request from NewService
+// Process XML <xml>... XML converted from JSON ...</xml>
