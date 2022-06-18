@@ -24,3 +24,6 @@ function run() {
 }
 
 run();
+
+// Output:
+// Email sent

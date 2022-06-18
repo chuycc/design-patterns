@@ -66,3 +66,9 @@ function run() {
 }
 
 run();
+
+// Output:
+// Email sent
+// SMS sent
+// Slack message sent
+// Facebook message sent
